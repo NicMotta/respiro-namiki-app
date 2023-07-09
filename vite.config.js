@@ -9,18 +9,28 @@ export default defineConfig({
     VitePWA({
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
       manifest: {
-        name: 'My Awesome App',
-        short_name: 'MyApp',
-        description: 'My Awesome App description',
-        theme_color: '#ffffff',
+        name: 'Respiro Namiki App 2.0',
+        short_name: 'Respiro Namiki App',
+        description: 'Respiro Namiki 2.0 App - MURU7.8',
+        theme_color: '#000',
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: 'favicon/favicon-16x16.png',
+            sizes: '16x16',
+            type: 'image/png'
+          },
+          {
+            src: 'favicon/favicon-32x32.png',
+            sizes: '32x32',
+            type: 'image/png'
+          },
+          {
+            src: 'favicon/android-chrome-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'favicon/android-chrome-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           }
