@@ -9,7 +9,7 @@
   }
 </script>
 
-<div class="absolute left-8 top-28 md:top-40 md:left-16">
+<div class="absolute left-8 top-40 md:top-40 md:left-16">
   <h1 class="text-7xl font-bold lg:text-8xl">{dataInfo[$count].name}</h1>
   <div class="flex flex-col text-4xl lg:text-4xl md:mt-7">
     <p class="{color}">___</p>
