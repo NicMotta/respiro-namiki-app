@@ -1,6 +1,5 @@
 <script>
-  import { count } from "./store";
+  import Container from "./components/Container/Container.svelte";
 </script>
 
-<h1 class="text-3xl text-center mt-20">Holis</h1>
-<h2 class="text-center mt-20">Contador es: {$count}</h2>
+<Container />
